@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!--  Meta  -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My New Pen!</title>
+
+		<!--  Styles  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="quote_gen.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+
+		<!--
+
+		Wow! What do you want to build?
+
+		You have so many possibilities right now... Looking for something to kick off?
+		How about a simple folio page to show off everything you're going to make!
+		-->
+		<div class="jumbotron text-center">
+			<h1 class="script">Random Quote Generator</h1>
+			<div class="row">
+				<form>
+					<button type="button" id="get_quote" class="btn-lg btn-lg btn-primary" value="get_quote">get quote</button>
+				</form>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<h4 id="quote_text" class="well quote_border"></h4>
+				<p id="quote_author"></p>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="quote_gen.js"></script>
+	</body>
+
+
+</html>

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background: url("background.jpg") no-repeat center; }
+
+.card {
+  position: relative;
+  background: #fff;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 60px 20px #ffffFF; }
+  .card .header {
+    background: url("old_fashioned.png") no-repeat center;
+    background-size: cover;
+    min-height: 350px; }
+    .card .header .icon a .fa-heart-o {
+      position: absolute;
+      left: 85%;
+      bottom: 30.7%;
+      background: #17BEBB;
+      color: #fff;
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 15px;
+      border-radius: 50%;
+      box-shadow: 0px 5px 30px 1px #17BEBB; }
+  .card .text .food {
+    color: #212129;
+    text-align: left;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 5px 30px; }
+  .card .text .fa-clock-o {
+    color: #9B9B9B;
+    margin: 0 30px; }
+  .card .text .fa-users {
+    color: #9B9B9B; }
+  .card .stars {
+    margin: 10px 30px; }
+    .card .stars li a i {
+      color: #FFE500; }
+  .card .info {
+    margin: 10px 30px; }
+  .card a.btn {
+    display: block;
+    background: #EF3E36;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 10px;
+    transition: 250ms; }
+    .card a.btn:hover {
+      background: #17BEBB;
+      transition: 250ms; }
+
+/*# sourceMappingURL=index.css.map */

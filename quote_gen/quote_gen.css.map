@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA;;;GAGG;AAEH,IAAK;EACJ,UAAU,EAAE,OAAO;;AAGpB,SAAU;EACT,gBAAgB,EAAE,OAAO;;AAG1B,UAAW;EACV,gBAAgB,EAAE,OAAO;;AAG1B,UAAW;EACV,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAAK",
+"sources": ["quote_gen.scss"],
+"names": [],
+"file": "quote_gen.css"
+}
