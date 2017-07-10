@@ -1,8 +1,8 @@
 
 var btn_aa = document.querySelector('#aa');
-var btn_ab = document.querySelector('#aa');
-var btn_ac = document.querySelector('#aa');
-var btn_ad = document.querySelector('#aa');
+var btn_ab = document.querySelector('#ab');
+var btn_ac = document.querySelector('#ac');
+var btn_ad = document.querySelector('#ad');
 
 var btn_ba = document.querySelector('#ba');
 var btn_bb = document.querySelector('#bb');
@@ -26,8 +26,5 @@ var btn_ec = document.querySelector('#ec');
 btn_aa.addEventListener('click', btnPress);
 
 function btnPress(){
-		if( btn.value === 'aa' ){
 					console.log("made it");
-					    // window.open("quote_gen.html");
-							    }
-}
+				}
